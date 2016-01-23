@@ -13,14 +13,13 @@ var
 		"resizable.js",
 		"selectable.js",
 		"sortable.js",
-		"effect.js"
+		"effect.js",
+		"dialog.js"
 	],
 
 	uiFiles = coreFiles.map(function( file ) {
 		return "ui/" + file;
-	}).concat( expandFiles( "ui/*.js" ).filter(function( file ) {
-		return coreFiles.indexOf( file.substring( 3 ) ) === -1;
-	}) ),
+	}),
 
 	allI18nFiles = expandFiles( "ui/i18n/*.js" ),
 
