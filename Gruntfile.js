@@ -15,7 +15,8 @@ var
 		"sortable.js",
 		"effect.js",
 		"dialog.js",
-                "button.js"
+                "button.js",
+                "position.js"
 	],
 
 	uiFiles = coreFiles.map(function( file ) {
